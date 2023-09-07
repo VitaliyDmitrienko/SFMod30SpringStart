@@ -10,9 +10,11 @@
 <!--        <property name="field" value="sample-value"></property>-->
 <!--    </bean>-->
 <bean id="student" class="org.example.entity.Student">
-    <property name="id" value="15"/>
-    <property name="firstName" value="Andros"/>
-    <property name="lastName" value="Zeus"/>
+    <property name="id" value="33"/>
+    <property name="firstName" value="Andrew"/>
+    <property name="lastName" value="First"/>
 </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 
 </beans>
