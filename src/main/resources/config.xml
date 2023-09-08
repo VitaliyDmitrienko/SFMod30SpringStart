@@ -14,6 +14,9 @@
     <property name="firstName" value="Andrew"/>
     <property name="lastName" value="First"/>
 </bean>
+    <bean id="samplebeen" class="org.example.ApplicationBeanExample">
+            </bean>
+
 
     <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
 
